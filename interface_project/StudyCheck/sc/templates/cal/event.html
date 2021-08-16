@@ -1,0 +1,21 @@
+{% extends 'cal_base.html' %}
+
+{% block content %}
+
+<div class="container-list">
+    <h5 class="my-3 border-bottom pb-2">일정 작성</h5>
+    <form method="post" >
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-black" style="float:left" name="flag" value="1">저장하기</button>
+        <button type="submit" class="btn btn-black" style="float:left" name="flag" value="0">삭제하기</button>
+      <a class="btn btn-black float-right" href="{% url 'cal:calendar' pk%}"> Calendar </a>
+    </form>
+</div>
+
+<style>
+    .clearfix{
+      padding-left: 0%;
+    }
+  </style>
+{% endblock %}

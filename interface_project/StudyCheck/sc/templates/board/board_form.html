@@ -1,0 +1,13 @@
+
+{% extends 'board_base.html' %}
+
+{% block content %}
+<div class="container-list">
+    <h5 class="my-3 border-bottom pb-2">게시판 생성</h5>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-black">저장하기</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'cal_base.html' %}
+{% block content %}
+
+<div class = "main">
+	<div class="topMenu">
+	<a href="{% url 'cal:calendar' gid%}?{{ prev_month }}" role="button" class="btn btn-black left"> Previous Month</a>
+	<a href="{% url 'cal:calendar' gid%}?{{ next_month }}" role="button" class="btn btn-black right"> Next Month </a>
+	<a href="{% url 'cal:event_new' gid%}" role="button" class="btn btn-black center" id="register"> Resister Your Schedule </a>
+	<a class="btn btn-black center" href="{% url 'group:group_page' gid  %}"> 그룹으로 </a>
+
+</div>
+
+	<div>
+		{{ calendar }}
+	</div>
+
+</div>
+{% endblock %}
