@@ -31,13 +31,13 @@
 
 ## 팀 구성 및 역할
 
-![캡처](sc_readme_img\팀구성.PNG)
+![캡처](sc_readme_img/팀구성.PNG)
 
 ---
 
 ## 수행 절차 및 방법
 
-![수행절차](sc_readme_img\수행절차.PNG)
+![수행절차](sc_readme_img/수행절차.PNG)
 
 ---
 
@@ -45,17 +45,17 @@
 
 #### 스토리보드
 
-![스토리보드1](sc_readme_img\스토리보드1.PNG)
+![스토리보드1](sc_readme_img/스토리보드1.PNG)
 
-![스토리보드2](sc_readme_img\스토리보드2.PNG)
+![스토리보드2](sc_readme_img/스토리보드2.PNG)
 
 #### DB구성
 
-![DB구성](sc_readme_img\DB구성.PNG)
+![DB구성](sc_readme_img/DB구성.PNG)
 
 #### URLconf 설계
 
-![URL](sc_readme_img\URL.PNG)
+![URL](sc_readme_img/URL.PNG)
 
 ---
 
@@ -63,117 +63,117 @@
 
 로그인 화면
 
-![로그인](sc_readme_img\로그인.PNG)
+![로그인](sc_readme_img/로그인.PNG)
 
 
 
 회원가입 화면
 
-![회원가입](sc_readme_img\회원가입.PNG)
+![회원가입](sc_readme_img/회원가입.PNG)
 
 
 
 로그인을 하면 그룹검색 페이지로 이동하게 됩니다.
 
-![그룹검색](sc_readme_img\그룹검색.PNG)
+![그룹검색](sc_readme_img/그룹검색.PNG)
 
 
 
 그룹을 선택하면 그룹상세보기가 나오게 됩니다.
 
-![그룹상세](sc_readme_img\그룹상세.PNG)
+![그룹상세](sc_readme_img/그룹상세.PNG)
 
 
 
 지원동기를 입력하지 않으면 가입신청시 알람이 뜨도록 설정하였습니다.
 
-![지원동기](sc_readme_img\지원동기.PNG)
+![지원동기](sc_readme_img/지원동기.PNG)
 
 
 
 가입 정원이 차면 가입신청이 불가능합니다. 이 외에도 이미 가입한 그룹, 가입승인 대기중에대한 메시지 표시도 나타나게 됩니다.
 
-![가입인원](sc_readme_img\가입인원.PNG)
+![가입인원](sc_readme_img/가입인원.PNG)
 
 
 
 관리자는 가입신청자에 대해 그룹승인 목록에서 가입신청을 승인하거나 거부할 수 있습니다.
 
-![가입승인](sc_readme_img\가입승인.PNG)
+![가입승인](sc_readme_img/가입승인.PNG)
 
 
 
 그룹생성 목록에서 원하는 그룹을 생성할 수 있습니다.
 
-![그룹생성](sc_readme_img\그룹생성.PNG)
+![그룹생성](sc_readme_img/그룹생성.PNG)
 
 
 
 자신이 생성한 그룹은 삭제할 수 있으며,
 
-![그룹삭제](sc_readme_img\그룹삭제.PNG)
+![그룹삭제](sc_readme_img/그룹삭제.PNG)
 
 
 
 자신이 가입한 그룹은 탈퇴할 수 있습니다.
 
-![그룹탈퇴](sc_readme_img\그룹탈퇴.PNG)
+![그룹탈퇴](sc_readme_img/그룹탈퇴.PNG)
 
 
 
 자신이 생성하거나 가입이 된 그룹은 그룹보기목록에서 확인할 수 있습니다. 
 
-![그룹보기](sc_readme_img\그룹보기.PNG)
+![그룹보기](sc_readme_img/그룹보기.PNG)
 
 
 
 그룹보기 목록에서 그룹을 선택하면 게시판이 보여지게 됩니다. 
 
-![게시글 등록](sc_readme_img\게시글 등록.PNG)
+![게시글 등록](sc_readme_img/게시글 등록.PNG)
 
 
 
 게시글 등록 버튼을 통해 게시글 생성이 가능하고,
 
-![게시글 생성](sc_readme_img\게시글 생성.PNG)
+![게시글 생성](sc_readme_img/게시글 생성.PNG)
 
 
 
 게시판 관리를 통해 게시판을 생성, 삭제할 수 있습니다.
 
-![게시판관리전](sc_readme_img\게시판관리전.PNG)
+![게시판관리전](sc_readme_img/게시판관리전.PNG)
 
-![게시판생성](sc_readme_img\게시판생성.PNG)
+![게시판생성](sc_readme_img/게시판생성.PNG)
 
-![게시판생성(중)](sc_readme_img\게시판생성(중).PNG)
+![게시판생성(중)](sc_readme_img/게시판생성(중).PNG)
 
-![게시판관리](sc_readme_img\게시판관리.PNG)
+![게시판관리](sc_readme_img/게시판관리.PNG)
 
-![게시판생성(후)](sc_readme_img\게시판생성(후).PNG)
+![게시판생성(후)](sc_readme_img/게시판생성(후).PNG)
 
 
 
 캘린더 보기에 들어가시면 그룹의 일정을 달력 형태로 볼 수 있고,
 
-![캘린더](sc_readme_img\캘린더.PNG)
+![캘린더](sc_readme_img/캘린더.PNG)
 
 
 
 RESISTER YOUR SCHEDULE 버튼을 통해 일정을 작성하실 수 있습니다.
 
-![일정생성](sc_readme_img\일정생성.PNG)
+![일정생성](sc_readme_img/일정생성.PNG)
 
 
 
 생성된 일정 제목은 달력에 표시됩니다.
 
-![일정표시](sc_readme_img\일정표시.PNG)
+![일정표시](sc_readme_img/일정표시.PNG)
 
 
 
 달력의 일정을 클릭하시면 일정 수정 및 삭제가 가능합니다.
 
-![일정수정](sc_readme_img\일정수정.PNG)
+![일정수정](sc_readme_img/일정수정.PNG)
 
 ---
 
